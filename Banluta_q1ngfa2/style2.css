@@ -1,0 +1,34 @@
+*{margin: 0px; padding: 0px;}
+.navbar{
+    margin: 5px; padding: 15px;
+    border: 1px solid black;
+    text-align: center;
+    position: fixed;
+    background-color: aliceblue;
+}
+#links{
+    display: inline;
+}
+#links a{
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    background-color: aliceblue;
+    color: black;
+    opacity: .55;
+    transition: .4s;
+}
+#links a:hover{opacity: 1; transition: .4s;}
+.banner{
+    background-image: url(Flag2.webp);
+    height: 250px;
+    position: relative;
+}
+.banner a{
+    position: absolute;
+    padding: 3px;
+    background-color: aliceblue;
+    right: 50%;
+    bottom: 50px;
+}
